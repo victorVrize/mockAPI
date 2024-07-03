@@ -1,6 +1,6 @@
 [
-  {
-    "requestId": 1,
-    "requestStatus": "Open",
-  },
+    {
+        "requestId": "1",
+        "requestStatus": "Open"
+    }
 ]
