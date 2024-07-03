@@ -1,0 +1,21 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://example.com/product.schema.json",
+    "title": "Request",
+    "description": "Request details",
+    "type": "object",
+    "properties": {
+        "requests": [
+            {
+                "id": {
+                    "description": "The unique identifier for a request",
+                    "type": "integer"
+                },
+                "requestStatus": {
+                    "description": "Status of the request",
+                    "type": "string"
+                }
+            }
+        ]
+    }
+}
