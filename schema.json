@@ -1,59 +1,17 @@
-{
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "type": "object",
-  "properties": {
-    "requests": {
-      "type": "array",
-      "items": [
-        {
-          "type": "object",
-          "properties": {
-            "id": {
-              "type": "integer"
-            },
-            "requestStatus": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "id",
-            "requestStatus"
-          ]
-        },
-        {
-          "type": "object",
-          "properties": {
-            "id": {
-              "type": "integer"
-            },
-            "requestStatus": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "id",
-            "requestStatus"
-          ]
-        },
-        {
-          "type": "object",
-          "properties": {
-            "id": {
-              "type": "integer"
-            },
-            "requestStatus": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "id",
-            "requestStatus"
-          ]
-        }
-      ]
-    }
-  },
-  "required": [
-    "requests"
-  ]
-}
+openapi: 3.0.0
+info:
+  title: FakeAPI
+  version: 1.0.0
+servers:
+  - url: https://my-json-server.typicode.com
+paths:
+  /victorVrize/mockAPI/requests/1:
+    get:
+      tags:
+        - default
+      summary: New Request
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
