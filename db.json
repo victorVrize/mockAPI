@@ -3,6 +3,14 @@
 		{
 			"id": 1,
 			"requestStatus": "Open"
+		},
+		{
+			"id": 2,
+			"requestStatus": "Closed"
+		},
+		{
+			"id": 3,
+			"requestStatus": "Rejected"
 		}
 	]
 }
