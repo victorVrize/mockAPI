@@ -1,18 +1,8 @@
-
 {
-  [
-  {
-    "id": 1,
-    "slug": "lorem-ipsum",
-    "url": "https://jsonplaceholder.org/posts/lorem-ipsum",
-    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "image": "https://dummyimage.com/800x430/FFFFFF/lorem-ipsum.png&text=jsonplaceholder.org",
-    "thumbnail": "https://dummyimage.com/200x200/FFFFFF/lorem-ipsum.png&text=jsonplaceholder.org",
-    "status": "published",
-    "category": "lorem",
-    "publishedAt": "04/02/2023 13:25:21",
-    "updatedAt": "14/03/2023 17:22:20",
-    "userId": 1
-  }
-]
+	"requests": [
+		{
+			"requestID": 1,
+			"requestStatus": "Open"
+		}
+	]
 }
