@@ -1,21 +1,59 @@
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://example.com/product.schema.json",
-    "title": "Request",
-    "description": "Request details",
-    "type": "object",
-    "properties": {
-        "requests": [
-            {
-                "id": {
-                    "description": "The unique identifier for a request",
-                    "type": "integer"
-                },
-                "requestStatus": {
-                    "description": "Status of the request",
-                    "type": "string"
-                }
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "requests": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "requestStatus": {
+              "type": "string"
             }
-        ]
+          },
+          "required": [
+            "id",
+            "requestStatus"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "requestStatus": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "requestStatus"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "requestStatus": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "requestStatus"
+          ]
+        }
+      ]
     }
+  },
+  "required": [
+    "requests"
+  ]
 }
