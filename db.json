@@ -1,7 +1,7 @@
 {
 	"requests": [
 		{
-			"requestID": 1,
+			"id": 1,
 			"requestStatus": "Open"
 		}
 	]
